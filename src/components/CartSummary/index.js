@@ -1,5 +1,4 @@
 import CartContext from "../../context/CartContext";
-import OrderPlaced from "../OrderPlaced";
 
 import "./index.css";
 
@@ -14,7 +13,6 @@ const CartSummary = () => (
 
       const clickCheckOut = () => {
         console.log(totalAmout, "total");
-        <OrderPlaced data={totalAmout} />;
       };
       console.log(totalAmout);
       return (
